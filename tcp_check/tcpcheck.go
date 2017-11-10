@@ -105,10 +105,11 @@ func (conf *Conf) initConf() *Conf {
 	yamlFile, err := ioutil.ReadFile("tcpcheck-config.yml")
 	if err != nil {
 		log.Errorf("yamlFile.Get err   #%v ", err)
-	} else if len(yamlFile) == 0 {
-		yamlFile, err = ioutil.ReadFile("config.yml")
-		if err != nil {
-			log.Errorf("yamlFile.Get err   #%v ", err)
+		if len(yamlFile) == 0 {
+			yamlFile, err = ioutil.ReadFile("config.yml")
+			if err != nil {
+				log.Errorf("yamlFile.Get err   #%v ", err)
+			}
 		}
 	}
 	err = yaml.Unmarshal(yamlFile, conf)

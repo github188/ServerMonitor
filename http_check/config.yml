@@ -1,0 +1,23 @@
+# config
+enabled: true
+instances:
+  http:
+    - name: 武警Web服务
+      url: http://192.168.10.102:12048/ahwj/login
+    - name: 武警Nginx
+      url: http://192.168.10.102:12048
+  mysql:
+    - name: 武警MySQL
+      host: 192.168.10.103
+      port: 3306
+      user: root
+      pass: ahwjmysqladmin#2017
+  redis:
+    - name: 武警Redis
+      host: 192.168.10.102
+      port: 6379
+  tcp:
+    - name: 武警ActiveMQ
+      host: 192.168.10.102
+      port: 61616
+ddRobotToken: 027956b4093ae5194ceb180ca549eaa1fec45b5b8915f0753b851a9691af3649

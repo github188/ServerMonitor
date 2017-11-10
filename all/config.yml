@@ -1,0 +1,23 @@
+# config
+enabled: true
+instances:
+  http:
+    - name: Web
+      url: http://192.168.10.102:12048/login
+    - name: Nginx
+      url: http://192.168.10.102:12048
+  mysql:
+    - name: 武警MySQL
+      host: 192.168.10.103
+      port: 3306
+      user: root
+      pass: pass
+  redis:
+    - name: Redis
+      host: 192.168.10.102
+      port: 6379
+  tcp:
+    - name: ActiveMQ
+      host: 192.168.10.102
+      port: 61616
+ddRobotToken: 027956b4093ae5194ceb180ca5111118915f0753b851a9691af3649
