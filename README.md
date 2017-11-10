@@ -21,6 +21,6 @@ github.com/garyburd/redigo/redis
 ```
 
 ### 备注:
-配置文件使用yaml，支持多服务监听
-各模块使用单独配置文件x-config.yml，也可以统一使用config.yml配置
+配置文件使用yaml，支持多服务监听<br>
+各模块使用单独配置文件x-config.yml，也可以统一使用config.yml配置<br>
 信息推送使用钉钉自定义机器人
