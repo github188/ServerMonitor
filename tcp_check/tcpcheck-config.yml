@@ -1,0 +1,8 @@
+# tcpcheck-config
+enabled: true
+instances:
+  tcp:
+    - name: 武警ActiveMQ
+      host: 127.0.0.1
+      port: 8161
+ddRobotToken: 027956b4093ae5194ceb180ca549eaa1fec45b5b8915f0753b851a9691af3649

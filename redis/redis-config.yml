@@ -1,0 +1,9 @@
+# redis-config
+enabled: true
+instances:
+  redis:
+    - name: 武警Redis
+      host: 127.0.0.1
+      port: 6379
+      #pass: pass
+ddRobotToken: 027956b4093ae5194ceb180ca549eaa1fec45b5b8915f0753b851a9691af3649

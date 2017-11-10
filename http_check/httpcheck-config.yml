@@ -1,0 +1,7 @@
+# httpcheck-config
+enabled: true
+instances:
+  http:
+    - name: 'layui官方'
+      url: 'http://www.layui.com'
+ddRobotToken: 027956b4093ae5194ceb180ca549eaa1fec45b5b8915f0753b851a9691af3649

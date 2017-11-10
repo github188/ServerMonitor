@@ -1,0 +1,10 @@
+# mysql-config
+enabled: true
+instances:
+  mysql:
+    - name: 武警MySQL
+      host: 192.168.1.244
+      user: root
+      pass: pass
+      port: 3306
+ddRobotToken: 027956b4093ae5194ceb180ca549eaa1fec45b5b8915f0753b851a9691af3649
