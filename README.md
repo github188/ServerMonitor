@@ -60,6 +60,7 @@ github.com/garyburd/redigo/redis
 信息推送使用钉钉自定义机器人
 
 ### 下载:
+[config.yml](http://oz6t8di9l.bkt.clouddn.com/config.yml)
 [monitor_linux_386](http://oz6t8di9l.bkt.clouddn.com/monitor_linux_386)<br>
 [monitor_linux_amd64](http://oz6t8di9l.bkt.clouddn.com/monitor_linux_amd64)<br>
 [monitor_windows_386](http://oz6t8di9l.bkt.clouddn.com/monitor_windows_386.exe)<br>
